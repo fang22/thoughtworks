@@ -10,26 +10,50 @@
 <body>
   <div class="container-fluid">
       <h1 class="text-center">统一建模语言理论测试</h1>
-      <ul class="list-inline" id="head">
-          <li>考试科目：统一建模语言</li>
-          <li>时间：100分钟</li>
-          <li>得分：100</li>
-      </ul>
-      <form class="form-inline">
-          <div class="form-group">
+      <div class="row">
+          <div class="col-md-4 col-xs-12">
+              <p><label>考试科目</label>：统一建模语言</p>
+          </div>
+          <div class="col-md-4 col-xs-12">
+              <p><label>时间</label>：100分钟</p>
+          </div>
+          <div class="col-md-4 col-xs-12">
+              <p><label>得分</label>：100</p>
+          </div>
+      </div>
+      <div class="form-inline row">
+          <div class="form-group col-md-4 col-xs-12">
               <label>班级</label>
               <input type="text" class="form-control" placeholder="1班">
           </div>
-          <div class="form-group">
+          <div class="form-group col-md-4 col-xs-12">
               <label>学号</label>
               <input type="text" class="form-control" placeholder="001">
           </div>
-          <div class="form-group">
+          <div class="form-group col-md-4 col-xs-12">
               <label>姓名</label>
               <input type="text" class="form-control" placeholder="王小闹">
           </div>
-
-      </form>
+      </div>
+      <!--<ul class="list-inline" id="head">-->
+          <!--<li>考试科目：统一建模语言</li>-->
+          <!--<li>时间：100分钟</li>-->
+          <!--<li>得分：100</li>-->
+      <!--</ul>-->
+      <!--<form class="form-inline">-->
+          <!--<div class="form-group">-->
+              <!--<label>班级</label>-->
+              <!--<input type="text" class="form-control" placeholder="1班">-->
+          <!--</div>-->
+          <!--<div class="form-group">-->
+              <!--<label>学号</label>-->
+              <!--<input type="text" class="form-control" placeholder="001">-->
+          <!--</div>-->
+          <!--<div class="form-group">-->
+              <!--<label>姓名</label>-->
+              <!--<input type="text" class="form-control" placeholder="王小闹">-->
+          <!--</div>-->
+      <!--</form>-->
       <h3>一、填空题（每空5分，共20分）</h3>
       <form class="form-inline">
           <div class="form-group">
@@ -137,22 +161,22 @@
              1、用例图只是用于客户交流和沟通的，用于确定需求。
              <label>
                  <input type="radio" name="radior">
-                 <span>对</span>
+                 <span>√</span>
              </label>
              <label>
                  <input type="radio" name="radior">
-                 <span>错</span>
+                 <span>×</span>
              </label>
          </li><br>
           <li>
               2、在状态图中终止状态在一个状态图中允许有任意多个。
               <label>
                   <input type="radio" name="radiorr">
-                  <span>对</span>
+                  <span>√</span>
               </label>
               <label>
                   <input type="radio" name="radiorr">
-                  <span>错</span>
+                  <span>×</span>
               </label>
           </li>
       </ul>
@@ -165,7 +189,7 @@
               <textarea type="text" class="form-control" rows="8"></textarea>
           </li>
       </ul>
-      <button class="btn btn-default" type="submit">计算分数</button>
+      <button class="btn btn-success" type="submit">计算分数</button>
   </div>
 </body>
 </html>
