@@ -6,9 +6,25 @@ module.exports = function countSameElements(collection) {
     var ble = 0;
     for(var i = 0;i < collection.length;i++){
         if(collection[i].length == 1){
-            console.log(collection[i])
-
-
+            console.log(collection[i]);
+            arr.push(collection[i]);
+            for(var i = 0;i <arr.length;){
+                var summary = 0;
+                for(var j = i;j <arr.length;j++){
+                    if(arr[i] === arr[j]){
+                        summary++
+                    }
+                }
+                str.push({
+                    name:arr[i],
+                    summary:summary
+                })
+                i += summary
+            }
+            for(var k = 0;k < str.length;k++){
+                console.log(str)
+            }
+            return str
         }//长度为1
         if(collection[i].length == 3){
             collection[i].indexOf(collection[i].charAt(0));
@@ -17,13 +33,14 @@ module.exports = function countSameElements(collection) {
             var obj = new Object();
             obj.name = (collection[i].charAt(0));
             obj.summary = parseInt(collection[i].charAt(2));
-            if(str[i].name ===obj.name){
-                str[i].summary += obj.summary
+            if(str.name ===obj.name){
+                str.summary += obj.summary
             }
             else{
-                str[i].name = obj.name
-                str[i].summary = obj.summary
+                str.name = obj.name
+                str.summary = obj.summary
             }
+            return str
         }//长度为3
         if(collection[i].length > 3){
             if(collection[i].indexOf(collection[i].charAt(1)) == '['){
@@ -35,16 +52,18 @@ module.exports = function countSameElements(collection) {
                     collection[i].substring(2,collection[i].length -1);
                     parseInt(collection[i].substring(2,collection[i].length -1));
                     obj1.summary = index;
-                    if(str[i].name ===obj1.name){
-                        str[i].summary += obj1.summary
+                    if(str.name ===obj1.name){
+                        str.summary += obj1.summary
                     }
                     else{
-                        str[i].name = obj1.name
-                        str[i].summary = obj1.summary
+                        str.name = obj1.name
+                        str.summary = obj1.summary
                     }
                 }
             }
+            return str
         }//长度为>3
-        return str
     }
+    return str
+    console.log(str)
 }
