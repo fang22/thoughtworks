@@ -54,7 +54,13 @@ module.exports = function countSameElements(collection) {
             //console.log(r)//[ { name: 't', summary: 2 } ]
             // [ { name: 'c', summary: 8 } ]
             // [ { name: 'd', summary: 5 } ]
-
+            if (r[i].name == str[i].name)
+            {
+                str[i].summary += r[i].summary
+            }else
+            {
+                str.push(r[i])
+            }
         }
         //长度为3
         if(collection[i].length > 3){
@@ -66,7 +72,10 @@ module.exports = function countSameElements(collection) {
                     obj.name = l;
                     obj.summary = k;
                 }
-                //console.log(obj)
+                if (obj.name[i] = str[i].name)
+                {
+                    str[i].summary += obj.summary[i]
+                }
             }
         }
         //长度为>3
