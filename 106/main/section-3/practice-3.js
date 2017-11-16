@@ -18,7 +18,6 @@ module.exports = function createUpdatedCollection(collectionA, objectB) {
     for(var k = 0;k < collectionC.length;k++){
          //console.log(collectionC[k])
     }
-    //return collectionC;
     //console.log(collectionC)
 
 

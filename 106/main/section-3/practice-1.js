@@ -8,6 +8,6 @@ module.exports = function createUpdatedCollection(collectionA, objectB) {
         }
     }
   }
-    console.log(collectionA)//和答案一样
+    //console.log(collectionA)//和答案一样
     return collectionA
 }
