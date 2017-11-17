@@ -166,101 +166,101 @@
       <form class="form-inline">
           <div class="form-group">
               <label>1、UML的中文全称是：</label>
-              <input type="text" class="form-control" id="text1" onblur="get()" placeholder="统一建模语言">
+              <input type="text" class="form-control" id="text1">
           </div>
-      </form>
+      </form><br>
       <form class="form-inline">
           <div class="form-group">
               <label>2、对象的突出特征是：</label>
-              <input type="text" class="form-control" id="text11" onblur="get()" placeholder="封装性">
-              <input type="text" class="form-control" id="text12" onblur="get()" placeholder="继承性">
-              <input type="text" class="form-control" id="text13" onblur="get()" placeholder="多态性">
+              <input type="text" class="form-control" id="text11">
+              <input type="text" class="form-control" id="text12">
+              <input type="text" class="form-control" id="text13">
           </div>
       </form>
       <h3>二、选择题（每题10分，共20分）</h3>
       <h4>1、UML与软件工程的关系是：</h4>
       <div class="radio">
           <label>
-              <input type="radio" name="options" onclick="two()" value="option1">（A）UML就是软件工程
+              <input type="radio" name="option1">（A）UML就是软件工程
           </label>
       </div>
       <div class="radio">
           <label>
-              <input type="radio" name="options" onclick="two()" value="option2">（B）UML参与到软件工程中软件开发过程的几个阶段
+              <input type="radio" name="option1">（B）UML参与到软件工程中软件开发过程的几个阶段
           </label>
       </div>
       <div class="radio">
           <label>
-              <input type="radio" name="options" onclick="two()" value="option3">（C）UML与软件工程无关
+              <input type="radio" name="option1">（C）UML与软件工程无关
           </label>
       </div>
       <div class="radio">
           <label>
-              <input type="radio" name="options" onclick="two()" value="option4">（D）UML是软件工程的一部分
+              <input type="radio" name="option1">（D）UML是软件工程的一部分
           </label>
       </div>
       <h4>2、Java语言支持：</h4>
       <div class="radio">
           <label>
-              <input type="radio" name="optionss" onclick="twos()" value="option1">（A）单继承
+              <input type="radio" name="option2">（A）单继承
           </label>
       </div>
       <div class="radio">
           <label>
-              <input type="radio" name="optionss" onclick="twos()" value="option2">（B）多继承
+              <input type="radio" name="option2">（B）多继承
           </label>
       </div>
       <div class="radio">
           <label>
-              <input type="radio" name="optionss" onclick="twos()" value="option3">（C）单继承和多继承都支持
+              <input type="radio" name="option2">（C）单继承和多继承都支持
           </label>
       </div>
       <div class="radio">
           <label>
-              <input type="radio" name="optionss" onclick="twos()" value="option4">（D）单继承和多继承都不支持
+              <input type="radio" name="option2">（D）单继承和多继承都不支持
           </label>
       </div>
       <h3>三、多选题（每题10分，共20分）</h3>
       <h4>1、用例的粒度分为一下哪几种：</h4>
       <div class="checkbox">
           <label>
-              <input type="checkbox" name="check" onclick="check()" value="a"> （A）概述级
+              <input type="checkbox" name="check" value="a"> （A）概述级
           </label>
       </div>
       <div class="checkbox">
           <label>
-              <input type="checkbox" name="check" onclick="check()" value="b"> （B）需求级
+              <input type="checkbox" name="check" value="b"> （B）需求级
           </label>
       </div>
       <div class="checkbox">
           <label>
-              <input type="checkbox" name="check" onclick="check()" value="c"> （C）用户目标级
+              <input type="checkbox" name="check" value="c"> （C）用户目标级
           </label>
       </div>
       <div class="checkbox">
           <label>
-              <input type="checkbox" name="check" onclick="check()" value="d"> （D）子功能级
+              <input type="checkbox" name="check" value="d"> （D）子功能级
           </label>
       </div>
       <h4>2、类图有以下哪三种部分组成：</h4>
       <div class="checkbox">
           <label>
-              <input type="checkbox" name="checks" onclick="checke()" value="a"> （A）名称（Name）
+              <input type="checkbox" name="checks" value="a"> （A）名称（Name）
           </label>
       </div>
       <div class="checkbox">
           <label>
-              <input type="checkbox" name="checks" onclick="checke()" value="b"> （B）属性（Attribute）
+              <input type="checkbox" name="checks" value="b"> （B）属性（Attribute）
           </label>
       </div>
       <div class="checkbox">
           <label>
-              <input type="checkbox" name="checks" onclick="checke()" value="c"> （C）操作（Operation）
+              <input type="checkbox" name="checks" value="c"> （C）操作（Operation）
           </label>
       </div>
       <div class="checkbox">
           <label>
-              <input type="checkbox" name="checks" onclick="checke()" value="d"> （D）方法（function）
+              <input type="checkbox" name="checks" value="d"> （D）方法（function）
           </label>
       </div>
       <h3>四、判断题（每题10分，共20分）</h3>
@@ -268,24 +268,24 @@
          <li>
              1、用例图只是用于客户交流和沟通的，用于确定需求。
              <label>
-                 <input type="radio" name="radior" onclick="one()" value="true">
-                 <span>√</span>
+                 <input type="radio" name="radio1" value="true">
+                 <span>&radic;</span>
              </label>
              <label>
-                 <input type="radio" name="radior" onclick="one()" value="false" >
-                 <span>×</span>
+                 <input type="radio" name="radio1" value="false" >
+                 <span>&Chi;</span>
              </label>
          </li>
           <br>
           <li>
               2、在状态图中终止状态在一个状态图中允许有任意多个。
               <label>
-                  <input type="radio" name="radiorr" onclick="ones()" value="true" >
-                  <span>√</span>
+                  <input type="radio" name="radio2" value="true" >
+                  <span>&radic;</span>
               </label>
               <label>
-                  <input type="radio" name="radiorr" onclick="ones()" value="false">
-                  <span>×</span>
+                  <input type="radio" name="radio2" value="false">
+                  <span>&Chi;</span>
               </label>
           </li>
       </ul>
@@ -295,11 +295,12 @@
               1、简述什么是模型以及模型的表达方式？
           </li>
           <li>
-              <textarea type="text" class="form-control" rows="8" id="test" onblur="last()"></textarea>
+              <textarea type="text" class="form-control" rows="8" id="test"></textarea>
           </li>
       </ul>
-      <button class="btn btn-success" type="submit" onclick="getvalue()">计算分数</button>
+      <button class="btn btn-success" type="submit" onclick="getScore()">计算分数</button>
   </div>
-  <script src="js/shijuan.js"></script>
+  <link rel="script" href="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js">
+  <script src="js/main.js"></script>
 </body>
 </html>
