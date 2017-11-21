@@ -53,8 +53,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -75,7 +75,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../107" />
     <property name="nodejs_interpreter_path" value="/usr/bin/node" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
   </component>
@@ -106,11 +106,12 @@
       <updated>1510899106910</updated>
       <workItem from="1510899108290" duration="6384000" />
       <workItem from="1510905683510" duration="55000" />
+      <workItem from="1510911950420" duration="42000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6439000" />
+    <option name="totallyTimeSpent" value="6481000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="592" y="114" width="1368" height="780" extended-state="6" />
@@ -149,12 +150,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-699">
           <caret line="7" column="50" lean-forward="false" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
-          <folding>
-            <element signature="e#4637#4644#1" expanded="true" />
-            <element signature="e#4785#4790#1" expanded="true" />
-            <element signature="e#5019#5026#1" expanded="true" />
-            <element signature="e#5170#5175#1" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -162,7 +157,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="439">
           <caret line="93" column="4" lean-forward="true" selection-start-line="93" selection-start-column="4" selection-end-line="93" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
