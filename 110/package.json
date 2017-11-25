@@ -1,23 +1,24 @@
 {
-  "name": "js-online-quiz-template",
+  "name": "take-out-food",
   "version": "1.0.0",
-  "description": "Powered by ThoughtWorks School",
-  "main": "app.js",
+  "description": "## 考试目标",
+  "main": "index.js",
   "scripts": {
-    "start": "node app.js",
-    "test": "node run-tests.js"
+    "test": "node run-test.js && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tws-stack/js-online-quiz-template.git"
+    "url": "git+https://github.com/freewind/take-out-food.git"
   },
-  "author": "ThoughtWorks School",
-  "license": "GPL-3.0",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tws-stack/js-online-quiz-template/issues"
+    "url": "https://github.com/freewind/take-out-food/issues"
   },
-  "homepage": "https://school.thoughtworks.cn",
+  "homepage": "https://github.com/freewind/take-out-food#readme",
   "devDependencies": {
-    "jasmine": "^2.6.0"
+    "jasmine": "^2.4.1",
+    "jasmine-console-reporter": "^1.2.6"
   }
 }
